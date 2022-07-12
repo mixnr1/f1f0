@@ -48,15 +48,16 @@ def atlikums_aprekinasana(nested_list, list):
                 nested_list[i][3]=0 
                 list[1]=atlikums_no_pardosanas_vertiba 
                 list[3]=atlikums_no_pardosanas 
-                print(pardosanas_datums,\
-                ",", pardosanas_kurss,\
-                ",", pardotie_btc,\
-                ",", pardosanas_vertiba, \
-                ",", iegades_datums, \
-                ",", iegades_kurss, \
-                ",", iegades_vertiba,\
-                ",", pelna, \
-                ",", nodoklis)
+                if pardotie_btc>0:
+                    print(pardosanas_datums,\
+                    ",", pardosanas_kurss,\
+                    ",", pardotie_btc,\
+                    ",", pardosanas_vertiba, \
+                    ",", iegades_datums, \
+                    ",", iegades_kurss, \
+                    ",", iegades_vertiba,\
+                    ",", pelna, \
+                    ",", nodoklis)
 
 def main(input_file, column_name):
     file_path=input_file
