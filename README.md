@@ -20,9 +20,6 @@ $python3 f1f0.py -f /path/to/input/xlsx_file -o /path/to/output/csv_file
 Use the following command to apply the column names of the xlsx file (default values are 'Datums', 'EUR', 'EUR/BTC', 'BTC')
 ```
 $python3 f1f0.py -f /path/to/input/xlsx_file -c Date EUR EUR/BTC BTC
-```
-OR
-```
 $python3 f1f0.py -f /path/to/input/xlsx_file -c 'Date' 'EUR' 'EUR/BTC' 'BTC'
 ```
 Use the following command to change the tax rate (the default tax rate is 20% (0.2))
