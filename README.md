@@ -11,6 +11,8 @@ One of the taxation regimes in the field of cryptocurrency is the taxation of in
 **IMPORTANT:** The sale/buy price of a cryptocurrency is considered to be the payment received in official currency (fiat currency). If it is not possible to determine the initial acquisition value of the capital asset, the acquisition value shall be considered to be 0.
 FIFO or the weighted average method may be used to calculate the acquisition value. The method chosen shall be used for at least 10 years. The acquisition value may include expenses (commissions, government fees) related to obtaining cryptocurrency.
 
+## How do I use f1f0.py script to calculate taxes from capital gains?
+
 To prepare an virtual environment with all required script dependencies, follow these steps:
 ```
 $git clone https://github.com/mixnr1/f1f0.git
