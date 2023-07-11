@@ -2,6 +2,24 @@ import pandas as pd
 import argparse
 import os
 def atlikums_aprekinasana(nested_list, list, output, tax_percent):
+    """
+    Performs calculations and prints values based on the provided inputs.
+
+    Args:
+        nested_list (list): A list containing nested sublists representing previous transactions.
+        lst (list): A list representing the current transaction with date, exchange rate, BTC quantity, and remaining balance.
+        output (str): The path to the output file where the results will be written.
+        tax_percent (float): The tax percentage to apply to the calculated profit.
+
+    Returns:
+        None
+
+    Notes:
+        - If the 'output' file exists, the function appends the calculated values to the file.
+        - If the 'output' file does not exist, the function prints the calculated values to the console.
+        - The function performs calculations based on the previous transactions and the remaining balance.
+
+    """
     if os.path.isfile(output) == True:
         output_file = open(output, "a")
         if list[3]>0: 
